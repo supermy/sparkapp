@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a669c55a-5af0-434c-8644-b9591f854ac0" name="spark-master" url="http://192.168.11.201">
+        <fileTransfer host="192.168.11.201" port="22" rootFolder="/home/hadoop/my" accessType="SFTP" username="hadoop">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a82ee312-5010-4d55-b6b2-193b25e0e6ed" name="svn-192.168.6.61" url="http://192.168.6.61">
+        <fileTransfer host="192.168.6.61" port="22" accessType="SFTP" password="dfe8dfe5dfc4dfc9df89df9bdf98df99" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
